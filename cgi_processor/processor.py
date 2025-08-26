@@ -17,11 +17,12 @@ def process_text(text: str) -> str:
     text = re.sub(r'~([а-яё]+)(,|\.|;|:)?\s+([а-яё]{1,2})\b', r' \1\2~\3', text, flags=re.IGNORECASE)
     text = re.sub(r'(\\,[А-ЯЁ]\.)(~|\\,)([А-Я][а-яё]+)\b', r'\1 \3', text)
     text = re.sub(r'и\s+т\.\s?д\.', r'и~т.\,д.', text)
-    text = re.sub(r' (-|---) ', r' — ', text)
+    text = re.sub(r' (-|---)(\s|\n)', r' —\2', text)
     text = re.sub(r'([0-9])(-|—)([0-9])', r'\1--\3', text)
     text = re.sub(r'([а-яё0-9]+)(-|—)([а-яё]+)', r'\1"=\3', text, flags=re.IGNORECASE)
     text = re.sub(r'(Т\.|№|С\.)\s?([0-9])', r'\1\,\2', text)
     text = re.sub(r'([0-9])\s?(с\.)', r'\1~\2', text)
+    text = text.replace(r'\\emph', r'\\textit')
     return text
 
 
