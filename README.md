@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16956676.svg)](https://doi.org/10.5281/zenodo.16956676)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16956676.svg)](https://doi.org/10.5281/zenodo.16956676)
 
 # Модуль предобработки текстовых материалов для журнала «Цифровые гуманитарные исследования»
 
