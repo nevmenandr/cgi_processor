@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Модуль предобработки текстовых материалов для журнала
+  «Цифровые гуманитарные исследования»
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Boris
+    family-names: Orekhov
+    email: nevmenandr@gmail.com
+    affiliation: HSE University
+    orcid: 'https://orcid.org/0000-0002-9099-0436'
+identifiers:
+  - type: url
+    value: 'https://github.com/nevmenandr/cgi_processor'
+repository-code: 'https://github.com/nevmenandr/cgi_processor'
+url: 'https://pypi.org/project/cgi-processor/'
+abstract: >-
+  В журнале статьи публикуются с использованием LaTeX.
+  Текстам на русском языке требуется дополнительная
+  обработка, связанная с правильным отображением
+  особенностей русской типографики. Модуль производит все
+  нужные преобразования автоматически и учитывает некоторые
+  свойства стилей журнала.
+keywords:
+  - latex
+  - типографика
+  - издание
+  - журнал
+  - text processing
+license: GPL-3.0
+date-released: '2025-08-25'
