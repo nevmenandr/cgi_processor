@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16956676.svg)](https://doi.org/10.5281/zenodo.16956676)
+
 # Модуль предобработки текстовых материалов для журнала «Цифровые гуманитарные исследования»
 
 ## Подготовка текстов
@@ -56,7 +58,7 @@ process_directory('./texts')
   year         = 2025,
   publisher    = {Zenodo},
   version      = {v0.1.2},
-  doi          = {10.5281/zenodo.16956677},
-  url          = {https://doi.org/10.5281/zenodo.16956677},
+  doi          = {10.5281/zenodo.16956676},
+  url          = {https://doi.org/10.5281/zenodo.16956676},
 }
 ```
