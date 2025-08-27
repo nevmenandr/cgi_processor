@@ -43,3 +43,20 @@ process_directory('./texts')
 ## Другие ресурсы
 
 Веб-сервис с альтернативным функционалом (не полностью совпадающим с текущим) можно найти [здесь](http://nevmenandr.net/cgi-bin/texconv.py). [Репозиторий](https://github.com/nevmenandr/TexTransform) проекта. 
+
+## Цитирование
+
+```
+@software{orekhov_2025_16956677,
+  author       = {Orekhov, Boris},
+  title        = {Модуль предобработки текстовых материалов для
+                   журнала «Цифровые гуманитарные исследования»
+                  },
+  month        = aug,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v0.1.2},
+  doi          = {10.5281/zenodo.16956677},
+  url          = {https://doi.org/10.5281/zenodo.16956677},
+}
+```

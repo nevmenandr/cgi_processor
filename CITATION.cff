@@ -18,6 +18,8 @@ authors:
 identifiers:
   - type: url
     value: 'https://github.com/nevmenandr/cgi_processor'
+  - type: doi
+    value: 10.5281/zenodo.16956676
 repository-code: 'https://github.com/nevmenandr/cgi_processor'
 url: 'https://pypi.org/project/cgi-processor/'
 abstract: >-
