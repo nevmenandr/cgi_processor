@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='cgi_processor',
-    version='0.1.3',
+    version='0.1.4',
     packages=find_packages(),
     description='Модуль для предобработки текстов журнала «Цифровые гуманитарные исследования»',
     long_description=open('README.md', encoding='utf-8').read(),
